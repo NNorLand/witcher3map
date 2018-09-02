@@ -1,0 +1,68 @@
+{
+  "//": [
+    "--------",
+    "Setup Instructions:",
+    "--------",
+    "1. npm install",
+    "2. grunt build",
+    "",
+    "--------",
+    "Development Instructions (no webserver needed!):",
+    "--------",
+    "3. grunt server",
+    "",
+    "Open your web browser of choice and visit http://localhost.",
+    "#1 installs npm dependencies for this project.",
+    "#2 builds the project to the dist/ folder.",
+    "#3 runs a web server using node/express in background. Watches for changes to any files in the assets folder and if a change is detected, ",
+    "the build task is executed immediately so the results are visible your browser."
+  ],
+  "name": "witcher3map",
+  "version": "2.0.0",
+  "description": "Unofficial Witcher 3 interactive maps, with a mobile & tablet friendly design faithful to the game.",
+  "author": {
+    "name": "untamed0",
+    "url": "https://github.com/untamed0"
+  },
+  "contributors": [
+    {
+      "name": "mcarver",
+      "url": "https://github.com/mcarver"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/untamed0/witcher3map"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "homepage": "https://witcher3map.com/",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "ddslick": "^1.0.1",
+    "express": "^4.13.4",
+    "file-saver": "github:eligrey/FileSaver.js",
+    "font-awesome": "^4.6.3",
+    "fuse.js": "^2.2.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-curl": "^2.2.0",
+    "grunt-express-server": "^0.5.3",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-jsonlint": "^1.1.0",
+    "grunt-sitemap-xml": "^0.1.2",
+    "grunt-sync": "^0.5.2",
+    "grunt-zip": "^0.17.1",
+    "gruntify-eslint": "^2.0.0",
+    "i18next-client": "^1.11.4",
+    "jquery": "^3.0.0",
+    "jquery.nicescroll": "github:inuyaksa/jquery.nicescroll",
+    "leaflet": "^0.7.7"
+  },
+  "devDependencies": {}
+}
