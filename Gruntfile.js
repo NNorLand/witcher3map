@@ -254,7 +254,7 @@ module.exports = function (grunt) {
 		'eslint',
 		'uglify',
 		'cssmin',
-		'unzip:maps',
+		// 'unzip:maps',
 		'copy',
 		'sync',
 		'sitemap_xml',
